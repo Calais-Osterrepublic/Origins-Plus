@@ -38,6 +38,7 @@
 	        "movement": 1,
 	        "strength": 6,
 		"rangedStrength": 10,
+		"requiredResource": "Iron",
 		"range":1,
 	        "cost": 100,
 	        "uniques": [
