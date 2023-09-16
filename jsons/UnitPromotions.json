@@ -39,6 +39,7 @@
 		"prerequisites": ["Master"],
 		"uniques": [
 			"[+25]% Strength <for [10] turns>",
+			"Heal this unit by [25] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": [
@@ -51,7 +52,8 @@
 	{
 		"name": "Scouting I",
 		"uniques": [
-			"[+10]% Strength"
+			"[+10]% Strength",
+			"[+1] Sight"
 		],
 		"unitTypes": [
 			"Irregular Infantry"
@@ -63,7 +65,8 @@
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
 		"uniques": [
-			"[+10]% Strength"
+			"[+1] Sight",
+			"[+33]% XP gained from combat"
 		],
 		"unitTypes": [
 			"Irregular Infantry"
@@ -75,7 +78,7 @@
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
 		"uniques": [
-			"[+10]% Strength"
+			"[+1] Movement"
 		],
 		"unitTypes": [
 			"Irregular Infantry"
