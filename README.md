@@ -1,4 +1,7 @@
-# Codename: Origins.
-Intense prototyping, download with caution.
+# Project Origins Plus of Operation Ruleset
+Built off of Monokiro's Origins Mod. 
+This is an attempt to create a more apt gameplay experience based off this mod, and an attempt to get used to the ruleset format.
 
-Main aim is to cover more prehistoric and mystic/mythologic branches than scientific or real history.
+https://github.com/Monokiro/Origins
+
+Ultimate goal: Make an experience that I would actually enjoy playing. I hope others may enjoy as well.
