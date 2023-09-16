@@ -7,9 +7,6 @@
 		"type": "Water",
 		"movementCost": 1,
 		"RGB": [2, 104, 100],
-		"uniques": [
-
-		]
     },
     {
 		"name": "Coast",
@@ -29,7 +26,7 @@
 			"Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Undesirable] when determining start locations",
-			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -84,6 +81,7 @@
 		"type": "Land",
 		"movementCost": 3,
 		"defenceBonus": 0.25,
+		"impassable": true,
 		"RGB": [120, 120, 120],
 		"uniques": [
 			"Rough terrain",
