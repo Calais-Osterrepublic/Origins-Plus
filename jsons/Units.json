@@ -8,9 +8,9 @@
         "movement": 1,
         "cost": 100,
         "uniques": [
-            "Founds a new city <by consuming this unit>",
-			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+		"Founds a new city <by consuming this unit>",
+		"Excess Food converted to Production when under construction",
+		"Requires at least [2] population"
         ]
     },
     {   //Tribesmen
@@ -22,30 +22,49 @@
 		],
 		"cost": 100
 	},
-
-    //
-    // Irregular Infantry
-    //
-    {   //Hunters
-        "name": "Hunters",
-        "unitType": "Irregular Infantry",
-        "movement": 1,
-        "strength": 1,
-        "cost": 100,
-        "uniques": [
+	{   //Hunters
+        	"name": "Hunters",
+	        "unitType": "Irregular Infantry",
+	        "movement": 1,
+	        "strength": 10,
+	        "cost": 100,
+	        "uniques": [
 			"Never appears as a Barbarian unit"
 		]
-    },
+	},
+	{   //Hunters
+        	"name": "Stone Throwers",
+	        "unitType": "Irregular Infantry",
+	        "movement": 1,
+	        "strength": 6,
+		"rangedStrength": 10,
+		"range":1,
+	        "cost": 100,
+	        "uniques": [
+			"Never appears as a Barbarian unit"
+		]
+	},
 
-    //
     // Barbarians
-    //
-    {   //Wolves
-        "name": "Wolves",
+	{   //Wolves
+		"name": "Wolves",
 		"unitType": "Animals",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
-		"strength": 1,
+		"strength": 8,
+		"cost": 100,
+		"uniques": [
+			"Can move after attacking"
+		]
+	},
+	{   //Wolves
+        	"name": "Bugs",
+		"unitType": "Animals",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 5,
+		"range":1,
+		"rangedStrength": 8,
 		"cost": 100,
 		"uniques": [
 			"No defensive terrain bonus",
