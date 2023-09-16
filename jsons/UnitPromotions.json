@@ -2,48 +2,85 @@
 	{
 		"name": "Experianced",
 		"uniques": [
-			"[+10]% Strength"
+			"[+25]% Strength"
 		],
 		"unitTypes": [
 			"Irregular Infantry"
 		],
 		"row": 0,
-        "column": 0
+        	"column": 0
 	},
 	{
 		"name": "Veteran",
 		"prerequisites": ["Experianced"],
 		"uniques": [
-			"[+10]% Strength"
+			"[+25]% Strength"
 		],
 		"unitTypes": [
 			"Irregular Infantry"
 		],
 		"row": 0,
-        "column": 1
+        	"column": 1
 	},
 	{
 		"name": "Master",
 		"prerequisites": ["Veteran"],
 		"uniques": [
-			"[+10]% Strength"
+			"[+25]% Strength"
 		],
 		"unitTypes": [
 			"Irregular Infantry"
 		],
 		"row": 0,
-        "column": 2
+        	"column": 2
 	},
 	{
-		"name": "Guru",
+		"name": "Prayer for Inner Strength",
 		"prerequisites": ["Master"],
+		"uniques": [
+			"[+25]% Strength <for [10] turns>",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes": [
+			"Irregular Infantry"
+		],
+		"row": 0,
+        	"column": 3
+	},
+	
+	{
+		"name": "Scouting I",
 		"uniques": [
 			"[+10]% Strength"
 		],
 		"unitTypes": [
 			"Irregular Infantry"
 		],
-		"row": 0,
-        "column": 3
+		"row": 1,
+        	"column": 0
+	},
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": [
+			"[+10]% Strength"
+		],
+		"unitTypes": [
+			"Irregular Infantry"
+		],
+		"row": 1,
+        	"column": 1
+	},
+	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": [
+			"[+10]% Strength"
+		],
+		"unitTypes": [
+			"Irregular Infantry"
+		],
+		"row": 1,
+        	"column": 2
 	}
 ]
