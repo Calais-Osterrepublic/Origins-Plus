@@ -7,13 +7,79 @@
 		"wonderCost": 0,
 		"techs": [
 			{
-				"name": "Tribal Organisation",
-				"row": 1,
+				"name": "Birth of the Tribes",
+				"row": 6,
 				"quote": "",
 				"uniques": [
 					"Starting tech"
 				]
 			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Primeval Era",
+		"techCost": 100,
+		"buildingCost": 100,
+		"wonderCost": 0,
+		"techs": [
+			{
+				"name": "Gathering",
+				"row": 5,
+				"quote": "See, the wisdoms of our ancestors is not void! How else would you know that this berry kills, while this berry is good for you?",
+				"prerequisites": ["Birth of the Tribes"],
+				"uniques": []
+			},
+			{
+				"name": "Hunting",
+				"row": 6,
+				"quote": "See how the Wolf hunts the Bison, or the Bugs feast on the grass? So too must we eat others, in order for us to survive.",
+				"prerequisites": ["Birth of the Tribes"],
+				"uniques": []
+			},			{
+				"name": "Meditation",
+				"row": 7,
+				"quote": "When the LORD created the heavens and the earth, they were formless and void, with no light on the waters, where the Spirit moved. Surely, this is what they ment?",
+				"prerequisites": ["Birth of the Tribes"],
+				"uniques": []
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Primeval Era",
+		"techCost": 100,
+		"buildingCost": 100,
+		"wonderCost": 0,
+		"techs": [
+			{
+				"name": "Taxonomy",
+				"row": 4,
+				"quote": "See this? This is a tree, and its fruit is good. Remember this, and distinguish them from this bush, where the bad fruits grow from.",
+				"prerequisites": ["Gathering"],
+				"uniques": []
+			},
+			{
+				"name": "Housing",
+				"row": 5,
+				"quote": "Welcome to my house.",
+				"prerequisites": ["Gathering"],
+				"uniques": []
+			},
+			{
+				"name": "Exploring",
+				"row": 6,
+				"quote": "Go on, climb the tree. Don't worry, you won't fall if you hold on to the right branch",
+				"prerequisites": ["Gathering", "Hunting","Meditation"],
+				"uniques": []
+			},
+			{
+				"name": "Shila",
+				"row": 6,
+				"quote": "I want it made known to you, what Shila is. It is a state of mind, where you become aware of all physical things around you, and all physical concerns are known to you. It is the breath of air before taking the plunge. It is the gathering of the self. This is not God, but a means of awakening.",
+				"prerequisites": ["Gathering", "Hunting"],
+				"uniques": []
+			},
 		]
 	}
 ]
