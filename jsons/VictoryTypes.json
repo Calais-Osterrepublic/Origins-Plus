@@ -1,16 +1,56 @@
 [
     {
-        "name": "Time",
+        "name": "Fulfillment",
         "hiddenInVictoryScreen": true,
-        "milestones": ["Have highest score after max turns"],
+        "milestones": [
+            "Build [Mark of Actualization]",
+            "Have highest score after max turns"
+        ],
         "victoryString": "",
         "defeatString": ""
-    }
+    },
     {
         "name": "Domination",
         "victoryScreenHeader": "Capture all enemy Capitals\nto win!",
-        "milestones": ["Capture all capitals"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+        "milestones": [
+            "Capture all capitals",
+            "Build [Project Unity]",
+            "Build [Crown World Imperator]"
+        ],
+        "victoryString": "",
+        "defeatString": ""
+    },
+    {
+        "name": "Enlightenment",
+        "victoryScreenHeader": "Undergo the perilous path of enlightenment\nto win!",
+        "milestones": [
+            "Build [Embrace Suffering]",
+            "Anyone should build [Discover The First Universal Truth]",
+            "Anyone should build [Discover The Second Universal Truth]",
+            "Anyone should build [Discover The Third Universal Truth]",
+            "Anyone should build [Discover The Fourth Universal Truth]",
+            "Anyone should build [Discover The Fifth Universal Truth]",
+            "Anyone should build [Discover The Sixth Universal Truth]",
+            "Anyone should build [Discover The Seventh Universal Truth]",
+            "Anyone should build [Discover The Eighth Universal Truth]",
+            "Build [Embrace the Truths]",
+        ],
+        "victoryString": "",
+        "defeatString": ""
+    },
+    {
+        "name": "Liberation",
+        "victoryScreenHeader": "Liberate the enslaved masses\nto win!",
+        "milestones": [
+            "Become the world religion",
+            "Add all [Symbols of Liberty] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "Blessing from the Fatherland", 
+            "Blessing from the Liberation Authority", 
+            "Blessing from the Liberated", 
+        ],
+        "victoryString": "",
+        "defeatString": ""
     },
 ]
