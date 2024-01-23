@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Primeval Era",
+		"name": "Primeval era",
 		"researchAgreementCost": 150,
 		"startingSettlerCount": 1,
 		"startingSettlerUnit": "Tribe",
@@ -30,7 +30,7 @@
 	        "iconRGB": [87, 87, 35]
 	},
 	{
-		"name": "Tribal era",
+		"name": "Familial era",
 	        "researchAgreementCost": 150,
 	        "startingSettlerCount": 1,
 		"startingSettlerUnit": "Tribe",
