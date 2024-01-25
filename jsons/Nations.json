@@ -2,67 +2,78 @@
 	{	//	Spectator
 		"name": "Spectator",
 		"outerColor": [255, 255, 255]
-		// "innerColor": [255,255,255]
+		"innerColor": [255,255,255]
 	},
 
 	{	//	white
-		"name": "Tribe Shiro",
+		"name": "Simulant Shiro",
 		"outerColor": [255, 255, 255],
 		"innerColor": [144, 144, 144],
 
 		"cities": ["Shiro"]
 	},
 	{	//	black
-		"name": "Tribe Kuro",
+		"name": "Simulant Kuro",
 		"outerColor": [0, 0, 0],
 		"innerColor": [180, 180, 180],
 
 		"cities": ["Kuro"]
 	},
 	{	//	blue
-		"name": "Tribe Ao",
+		"name": "Simulant Ao",
 		"outerColor": [12, 12, 255],
 		"innerColor": [180, 180, 180],
 
 		"cities": ["Ao"]
 	},
 	{	//	red
-		"name": "Tribe Aka",
+		"name": "Simulant Aka",
 		"outerColor": [204, 9, 9],
 		"innerColor": [195, 195, 195],
 
 		"cities": ["Aka"]
 	},
 	{	//	green
-		"name": "Tribe Midori",
+		"name": "Simulant Midori",
 		"outerColor": [84, 255, 84],
 		"innerColor": [126, 126, 126],
 
 		"cities": ["Midori"]
 	},
 	{	//	yellow
-		"name": "Tribe Kiiro",
+		"name": "Simulant Kiiro",
 		"outerColor": [255, 255, 72],
 		"innerColor": [135, 135, 135],
 
 		"cities": ["Kiiro"]
 	},
 	{	//	brown
-		"name": "Tribe Chairo",
+		"name": "Simulant Chairo",
 		"outerColor": [140, 35, 35],
 		"innerColor": [153, 153, 153],
 
 		"cities": ["Chairo"]
 	},
 	{	//	Golden
-		"name": "Tribe Ogonshoku",
+		"name": "Simulant Ogonshoku",
 		"outerColor": [255, 219, 25],
 		"innerColor": [121, 121, 121],
 
 		"cities": ["Ogonshoku"]
 	},
 
+	{
+		"name": "Simulant Bratislava",
+		"adjective": ["Bratislava"],
+		"cityStateType": "Religious",
 
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. For God is with me!",
+		"defeated": "May the Lord deliver us from this nightmare! Tell me, murderer, what is this place?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"cities": ["Bratislava"]
+	},
 	
 	{	//	Barbarian
 		"name": "Barbarians",
