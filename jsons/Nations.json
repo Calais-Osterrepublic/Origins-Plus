@@ -69,7 +69,7 @@
 
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "I will fear no evil. For God is with me!",
-		"defeated": "May the Lord deliver us from this nightmare! Tell me, murderer, what is this place?",
+		"defeated": "May the Lord deliver us from this nightmare!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,255,255],
 		"cities": ["Bratislava"]
